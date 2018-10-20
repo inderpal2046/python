@@ -2,4 +2,4 @@
 x=9
 y=10
 z=x+y
-z
+print ("The sum of " + str(x) + " and " + str(y) + " is " + str(z))
