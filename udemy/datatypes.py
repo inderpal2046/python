@@ -52,6 +52,7 @@ print(name)
 print(y)
 '''
 
+'''
 inder="singh"
 name=inder
 print("Value, type and memory location of 'inder' variable is as follows,")
@@ -67,3 +68,27 @@ print("Value, type and memory location of 'y' variable is as follows,")
 print(y,type(y),id(y))
 print("Value, type and memory location of 'z' variable is as follows,")
 print(z,type(z),id(z))
+'''
+
+'''
+status_1=True
+status_2=False
+status_3="True"
+print(status_1,type(status_1))
+print(status_2,type(status_2))
+print(status_3,type(status_3))
+'''
+
+'''
+x=56
+print(x,type(x))
+y=str(x)
+print(y,type(y))
+'''
+
+x=10
+y=bool(x)
+print(y,type(y))
+a=0
+b=bool(a)
+print(b,type(b))
