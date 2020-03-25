@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+name="Inderpal Singh Saini"
+print(f"Operations which can be performed on string are as below, \n")
+print(f"{dir(name)} \n")
+print(f"{name}\n")
+print(f"Does the name start with 'I' : {name.startswith('I')} \n")
+print(f"Does the name start with 'Ind' : {name.startswith('Ind')} \n")
+print(f"Does the name start with 'G' : {name.startswith('G')} \n")
+print(f"Does the name start with 'Ghj' : {name.startswith('Ghj')} \n")
+print(f"Is the string in lower case: {name.islower()} \n")
+print(f"Is the string in upper case: {name.isupper()} \n")
+print(f"Is the string in title format: {name.istitle()} \n")
+print(f"Does the string contains only space: {name.isspace()} \n")
+print(f"Does the string contains only alphabets: {name.isalpha()} \n")
+print(f"Does the string contains only numbers: {name.isnumeric()} \n")
