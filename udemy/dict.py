@@ -114,3 +114,42 @@ print(f"Assigning the popped item to another new dict...")
 print(f"Performing another popitem...")
 dict2=dict1.popitem()
 print(f"The new dict is : {dict1} and the popped item is : {dict2}") 
+
+# fromkeys operation
+
+print()
+print(f"Defining keys as a list...")
+keys=[1,2,3,4,5]
+print(f"list of keys is : {keys}")
+print(f"Assigning keys from list to dictionary...")
+mydict=dict.fromkeys(keys)
+print(f"The dict is : {mydict}")
+print(f"Assigning individual values to keys in dict...")
+mydict[1]="a"
+mydict[2]="b"
+print(f"After assigning values for 1 and 2 keys in dict : {mydict}")
+
+# setdefault operation
+
+print()
+print("setdefault operation")
+dict={'a':'None'}
+print(f"The dict with none value is : {dict}")
+print(f"Setting default value for key with None value...")
+dict.setdefault('a','letter a')
+print(f"New dict is : {dict}")
+
+print()
+dict={'a':'alphabet a'}
+print(f"The dict with a value is : {dict}")
+print(f"Setting default value for key with already existing value...")
+dict.setdefault('a','letter a')
+print(f"New dict is : {dict}")
+
+
+print()
+dict={'a':'alphabet a'}
+print(f"The dict with a value is : {dict}")
+print(f"Setting default value for key which doesn't exist...")
+dict.setdefault('b','letter b')
+print(f"New dict is : {dict}")
