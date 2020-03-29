@@ -22,4 +22,4 @@ sum=a+b
 
 # displaying result
 
-print(f"The sum of {a} and {b} is {sum}.")
+print(f"The sum of {a} and {b} is {sum}")
