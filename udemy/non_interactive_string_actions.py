@@ -7,10 +7,17 @@
 
 import sys
 
-if len(sys.argv)==1:
-    print(f"Correct script usage : {sys.argv[0]} \"input string\" \"action\"")
-    print(f"input string is the string on which operation is going to be performed.")
-    print(f"action can take values as [lower|upper|title|swapcase]")
+if len(sys.argv)!=3:
+    import os
+    os.system("clear")
+    print(f"Correct script usage : ")
+    print(f"{sys.argv[0]} <\"input string\"> <\"action\">")
+    print(f"\nExample:")
+    print(f"{sys.argv[0]} \"HeLLo wOrLd\" \"swapcase\"")
+    print(f"\nNote about script: ")
+    print(f"The script will accept only 2 CLI arguments. If any single argument has space in it, then enclose it inside \"\"")
+    print(f"<\"input string\"> is the string on which operation is going to be performed.")
+    print(f"<\"action\"> can take values as [lower|upper|title|swapcase]")
     sys.exit(1)
 
 # It is useful to assign CLI argument values to new vars in the script as below.
