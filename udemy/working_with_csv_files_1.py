@@ -8,3 +8,5 @@ data=fo.readlines()
 fo.close()
 for i in data:
     print(i.strip("\n"))
+
+# But this prints line as rows only and colums are not separated.
