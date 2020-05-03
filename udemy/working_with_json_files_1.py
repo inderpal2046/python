@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# print json data using normal method of reading data.
+# print json data using normal method of reading data. This prints the json object as a string.
 
 import json
 req_file="/home/inderpal2406/tmp/file_1.json"
