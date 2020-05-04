@@ -10,10 +10,10 @@ rc=sp.wait()
 out,err=sp.communicate()
 
 if rc==0:
-#   print(err)
+#   print(err)			# when correct command is executed, then output is logged into error
 #   print(err.splitlines())
     for i in err.splitlines():
         if "version" in i:
             print(i.split()[2])
 else:
-    print(out)
+    print(err)			# if wrong command is executed, then error is also logged into error
