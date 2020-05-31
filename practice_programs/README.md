@@ -8,3 +8,4 @@ Python practice programs from the website: https://w3resource.com/python-exercis
 2. [python_version.py](scripts/python_version.py): Display python version.
 3. [time.py](scripts/time.py): Display localtime or time of another desired timezone.
 4. [geometrical_figures.py](scripts/geometrical_figures.py): Calculate mathematical attributes of a desired geometrical figure of choice.
+5. [string_reverse.py](scripts/string_reverse.py): Reverses an input string with help of a recursive function. 
