@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+print(f"This is first line.\nThis is second line.\nThis is how 3 lines are printed on separate lines using one print statement.")
+print(f"Hello \bWorld")
+print(f"Hello \b\bWorld")
+print(f"Without using tab special char.")
+print(f"Using\ttab\tspecial\tchar\t.")
+print(f'We can use single quotes as well inside print statement.')
+print(f'This\'s python\'s simplicity.')
+print(f"This's python's simplicity.")
+print(f"He told \"I am a good boy!\"")
+print(f'He told "I am a good boy!"')
+print(f"This is a windows path: C:\\Users\\A55432\\Desktop")
+print(f"This is linux path: /home/ansible/playbooks")
+print(f"An alert sound will be played after printing this statement.\a")
