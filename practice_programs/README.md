@@ -13,3 +13,4 @@ Python practice programs from the website: https://w3resource.com/python-exercis
 7. [file_extension.py](scripts/file_extension.py): Accepts filename and prints its extension.
 8. [first_and_last.py](scripts/first_and_last.py): Accepts comma separated values and display first and last value.
 9. [current_date_time.py](scripts/current_date_time.py): Displays current date and time.
+10. [num_sum_prod.py](scripts/num_sum_prod.py): TBC...
