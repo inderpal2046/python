@@ -39,4 +39,11 @@ iterations=int(input("Please enter the number of iterations: "))
 
 # For loop to iterate over number of iterations and calculate the sum.
 
-for i
+sum=0
+for i in list(range(1,iterations+1,1)):
+  product=1
+  for j in list(range(1,i+1,1)):
+    product*=num
+  sum+=product
+
+print(sum)
