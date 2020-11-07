@@ -7,6 +7,7 @@
 # Updated       : 07 Nov, 2020
 # Description   : A script to accept a filename from the user and print the extension of that.
 #		: The enhancement to enable the script to detect no file extension needs to be added.
+#		: Maybe we can use str.rsplit(sep=".", maxsplit=1) function to add the enhancement.
 ################################################################################
 
 # Import modules
