@@ -14,4 +14,5 @@ import datetime
 
 # Display current date and time.
 
-print(f"Current date and time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+now=datetime.datetime.now()
+print(f"Current date and time: {now.strftime('%Y-%m-%d %H:%M:%S')}")
