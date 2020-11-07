@@ -11,3 +11,4 @@ Python practice programs from the website: https://w3resource.com/python-exercis
 5. [string_reverse.py](scripts/string_reverse.py): Reverses an input string with help of a recursive function. 
 6. [numbers_to_list_and_tuple.py](scripts/numbers_to_list_and_tuple.py): Accepts comma separated numbers and generates a list and tuple from those numbers.
 7. [file_extension.py](scripts/file_extension.py): Accepts filename and prints its extension.
+8. [first_and_last.py](scripts/first_and_last.py): Accepts comma separated values and display first and last value.
